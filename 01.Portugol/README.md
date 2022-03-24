@@ -11,15 +11,13 @@ O [Portugol Studio](http://lite.acad.univali.br/portugol/) é um ambiente para a
 - Suporte à bibliotecas e desenvolvimento de jogos;
 
 ## Hello World
-`
-programa
 
+`programa
 {
 	funcao inicio()
 	{
 		escreva("Olá Mundo")
 
 	}
-}
-`
+}`
 O Portugol Studio é desenvolvido e mantido pelo [Laboratório de Inovação Tecnológica na Educação](http://lite.acad.univali.br/en/) da [UNIVALI](https://www.univali.br/Paginas/default.aspx). Conheça mais sobre o <b>Portugol Studio</b> em nosso [site oficial](http://lite.acad.univali.br/portugol/) e na [página da Wikipedia](https://pt.wikipedia.org/wiki/Portugol_Studio).
