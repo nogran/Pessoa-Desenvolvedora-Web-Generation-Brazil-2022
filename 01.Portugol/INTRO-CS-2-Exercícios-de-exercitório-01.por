@@ -1,4 +1,5 @@
-/* 1. Faça um sistema que leia a idade de uma pessoa expressa em anos,
+/*
+ * 1. Faça um sistema que leia a idade de uma pessoa expressa em anos,
  * meses e dias e mostre-a expressa apenas em dias. 
 */
 
@@ -20,7 +21,7 @@ programa
 		escreva("Em que DIA você nasceu? Digite apenas números. Ex: 02\n")
 		leia(birthday_day)
 		birthday = (birthday_day + "/" + birthday_month + "/" + birthday_year)
-		//conversao para inteiro
+		//conversão para inteiro
 		int_birthday_year = tp.cadeia_para_inteiro(birthday_year, 10)
 		int_birthday_month = tp.cadeia_para_inteiro(birthday_month, 10)
 		int_birthday_day = tp.cadeia_para_inteiro(birthday_day, 10)
@@ -31,12 +32,12 @@ programa
 			calculate_month = 12 - (int_birthday_month - today_month) - 1
 			calculate_day = 30 + today_day - int_birthday_day - 1
 		} senao se (int_birthday_day > today_day e int_birthday_month > today_month) {
-		//checa se ainda não chegou o mês de aniversário e o data é menor que o aniversário ok
+		//checa se ainda não chegou o mês de aniversário e o data é menor que o aniversário
 			calculate_year = today_year - int_birthday_year - 1
 			calculate_month = 12 + today_month - int_birthday_month - 1
 			calculate_day = 30 + today_day - int_birthday_day - 1
 		} senao se (int_birthday_day <= today_day e int_birthday_month > today_month) {
-		//checa se ainda não chegou o mês de aniversário e o data é maior que o aniversário ok
+		//checa se ainda não chegou o mês de aniversário e o data é maior que o aniversário
 			calculate_year = today_year - int_birthday_year - 1
 			calculate_month = 12 + today_month - int_birthday_month
 			calculate_day = today_day - int_birthday_day
@@ -46,8 +47,7 @@ programa
 			calculate_month = today_month - int_birthday_month - 1
 			calculate_day = 30 + today_day - int_birthday_day - 1
 		} senao {
-		//significa que já fez aniversário esse ano
-		//checa se hoje é o mês do aniversário e já passou o dia ok
+		//significa que já fez aniversário esse ano, ou seja, hoje é o mês do aniversário e já passou o dia
 			calculate_year = today_year - int_birthday_year
 			calculate_month = today_month - int_birthday_month
 			calculate_day = today_day - int_birthday_day
@@ -63,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1331; 
+ * @POSICAO-CURSOR = 807; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
