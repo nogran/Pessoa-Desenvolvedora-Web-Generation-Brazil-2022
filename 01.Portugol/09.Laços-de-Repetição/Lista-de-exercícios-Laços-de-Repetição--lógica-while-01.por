@@ -8,17 +8,16 @@ programa
 {	
 	funcao inicio()
 	{
-		real n, n_aux, total_somatorio = 0.0, media = 0.0
+		real n, total_somatorio = 0.0, media = 0.0
 		inteiro total_de_valores_lidos = 0
 		
 		escreva("Digite um numero: ")	
 		leia(n)
 		enquanto (n >= 0) {
-			n_aux = n
+			total_somatorio = n + total_somatorio
 			escreva("Digite um numero: ")	
 			leia(n)
 			total_de_valores_lidos++
-			total_somatorio = n_aux + total_somatorio
 			media = total_somatorio / total_de_valores_lidos
 		}
 		escreva("\nO total somatório é " + total_somatorio + ".\n")	
@@ -31,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 473; 
+ * @POSICAO-CURSOR = 393; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
