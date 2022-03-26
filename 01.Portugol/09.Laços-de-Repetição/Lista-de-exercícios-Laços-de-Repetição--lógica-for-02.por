@@ -10,7 +10,9 @@ programa
 		
 		para (n = 1; n <= 500; n++) {
 			se (n % 3 == 0 e n % 2 != 0) {
+				escreva(n + "\n")
 				soma = soma + n
+				escreva(soma + " soma depois de n\n")
 			}	
 		}
 		escreva("A soma de todos os números ímpares que são múltiplos de três para esse intervalo é:\n" + soma)
@@ -21,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 421; 
+ * @POSICAO-CURSOR = 354; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

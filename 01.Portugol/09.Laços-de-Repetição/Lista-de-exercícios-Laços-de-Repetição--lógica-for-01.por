@@ -14,11 +14,11 @@ programa
 		real salario, media_salarial, percentual_salario_ate_cem, media_numero_filhos, 
 		soma_salario = 0.0, soma_filhos = 0.0, maior_salario = 0.0, contador_pessoas_cem = 0.0
 		
-		para(n = 0; n < 2; n++) {
+		para(n = 0; n < 20; n++) {
 			escreva("Habitante número " + (n + 1) + "\n")
 			escreva("Valor do salário: ")
 			leia(salario)
-			escreva("Quantidade de filhos: ")
+			escreva("Quantidade de filhos: ")	
 			leia(filhos)
 			escreva("\n")
 			
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1141; 
+ * @POSICAO-CURSOR = 566; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
