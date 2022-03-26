@@ -6,20 +6,38 @@
  * c) maior salário; 
  * d) percentual de pessoas com salário até R$100,00.  
  */
-
 programa
 {
 	funcao inicio()
 	{
-		inteiro habitantes, media_numero_filhos
-		real media_salarial, maior_salario, percentual_salario_ate_cem
+		inteiro n, filhos
+		real salario, media_salarial, percentual_salario_ate_cem, media_numero_filhos, 
+		soma_salario = 0.0, soma_filhos = 0.0, maior_salario = 0.0, contador_pessoas_cem = 0.0
 		
-		
-		escreva("a) A média do salário da população é R$ " + media_salarial + ".\n")
-		escreva("b) A média do número de filhos é " + media_numero_filhos + ".\n")
-		escreva("c) O maior salário é " + maior_salario + ".\n")
-		escreva("c) O percentual de pessoas com salário até R$100,00 é " + percentual_salario_ate_cem + ".")
+		para(n = 0; n < 2; n++) {
+			escreva("Habitante número " + (n + 1) + "\n")
+			escreva("Valor do salário: ")
+			leia(salario)
+			escreva("Quantidade de filhos: ")
+			leia(filhos)
+			escreva("\n")
+			
+			soma_salario = soma_salario + salario
+			soma_filhos = soma_filhos + filhos
 
+			se(salario > maior_salario) { //maior salario
+				maior_salario = salario
+			} se(salario < 100) { //percentual pessoas salario até 100
+				contador_pessoas_cem++
+			}
+		}
+		media_salarial = soma_salario / n
+		media_numero_filhos = soma_filhos / n
+		percentual_salario_ate_cem = (contador_pessoas_cem / n) * 100
+		escreva("a) A média do salário da população é R$ " + media_salarial + "\n")
+		escreva("b) A média do número de filhos é " + media_numero_filhos + "\n")
+		escreva("c) O maior salário é R$ " + maior_salario + "\n")
+		escreva("c) O percentual de pessoas com salário até R$100,00 é " + percentual_salario_ate_cem + "%")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -27,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 788; 
+ * @POSICAO-CURSOR = 1141; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
