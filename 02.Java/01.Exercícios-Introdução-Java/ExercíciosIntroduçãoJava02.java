@@ -15,10 +15,11 @@ public class ExercíciosIntroduçãoJava02 {
 		Scanner leia = new Scanner(System.in);
 		System.out.print("Digite a quantidade de dias: ");
 		idadeDias = leia.nextInt();
+		leia.close();
 		totalAnos = idadeDias / 365;
 		totalMeses = idadeDias / 30;
-		System.out.println("A idadde em anos é: " + totalAnos);
-		System.out.println("A idadde em meses é: " + totalMeses);
-		System.out.println("A idadde em dias é: " + idadeDias);
+		System.out.println("A idade em anos é: " + totalAnos);
+		System.out.println("A idade em meses é: " + totalMeses);
+		System.out.println("A idade em dias é: " + idadeDias);
 	}
 }
