@@ -17,6 +17,7 @@ public class ExercíciosIntroduçãoJava03 {
 		Scanner leia = new Scanner(System.in);
 		System.out.print("Digite a duração em segundos: ");
 		segundos = leia.nextInt();
+		leia.close();
 		if (segundos >= 60) {
 			minutos = segundos / 60;
 			segundos = segundos % 60;
