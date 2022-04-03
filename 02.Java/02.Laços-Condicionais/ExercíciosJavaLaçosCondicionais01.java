@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 public class ExercíciosJavaLaçosCondicionais01 {
-	static public void main(String[] args) {
+       	public static void main(String[] args) {
 		int a;
 		int b;
 		int c;
@@ -22,6 +22,7 @@ public class ExercíciosJavaLaçosCondicionais01 {
 		}	
 		System.out.print("Digite o terceiro número: ");
 		c = leia.nextInt();
+		leia.close();
 		if(c > b && c > a) {
 			max = c;
 		}	
