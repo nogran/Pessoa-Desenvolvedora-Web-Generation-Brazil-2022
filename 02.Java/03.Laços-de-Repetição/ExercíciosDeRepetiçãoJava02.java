@@ -1,5 +1,5 @@
 /*
- * Ler 10 números e imprimir quantos são pares e quantos são ímpares.
+ * 2. Ler 10 números e imprimir quantos são pares e quantos são ímpares.
  * Utilizar laço de repetição (FOR).
  */
 
