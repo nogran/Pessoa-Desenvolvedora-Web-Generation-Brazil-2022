@@ -12,8 +12,6 @@
  * 	• o número de pessoas calmas com menos de 18 anos.
  */
 
-//package br.com.generationrepeticao;
-
 import java.util.Scanner;
 
 public class ExercíciosDeRepetiçãoJava04 {
