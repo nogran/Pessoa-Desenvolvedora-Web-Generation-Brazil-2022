@@ -41,7 +41,7 @@ public class ExercíciosDeRepetiçãoJava04 {
 		int totalMasculinoAgressivoMais40 = 0;
 		int totalMasculinoCalmoMenos18 = 0;
 		int totalMasculinoNervosoMenos18 = 0;
-		int totalMasculioAgressivoMenos18 = 0;
+		int totalMasculinoAgressivoMenos18 = 0;
 		int totalOutrosCalmo = 0;
 		int totalOutrosNervoso = 0;
 		int totalOutrosAgressivo = 0;
@@ -92,7 +92,7 @@ public class ExercíciosDeRepetiçãoJava04 {
 						totalFemininoAgressivoMenos18++;
 					}
 				} 
-			} if (sexo == masculinoOpcao) {
+			} else if (sexo == masculinoOpcao) {
 				totalMasculino++;
 				if (personalidade == calmoOpcao) {
                                         totalMasculinoCalmo++;
@@ -111,12 +111,12 @@ public class ExercíciosDeRepetiçãoJava04 {
                                 } if (personalidade == agressivoOpcao) {
                                         totalFemininoAgressivo++;
                                         if (idade > 40) {
-                                                totalFemininoAgressivoMais40++;
+                                                totalMasculinoAgressivoMais40++;
                                         } if (idade < 18) {
-                                                totalFemininoAgressivoMenos18++;
+                                                totalMasculinoAgressivoMenos18++;
                                         }
                                 }
-			} if(sexo == outrosOpcao) {
+			} else if (sexo == outrosOpcao) {
 				totalOutros++;
 				if (personalidade == calmoOpcao) {
                                         totalOutrosCalmo++;
