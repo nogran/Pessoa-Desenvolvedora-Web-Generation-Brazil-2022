@@ -24,4 +24,10 @@ public class Animal {
 	public void setSomAnimal(String somAnimal) {
 		this.somAnimal = somAnimal;
 	}
+	
+	void imprimirInfo() {
+		System.out.println("Nome: "+getNomeAnimal());
+		System.out.println("Idade: "+getIdadeAnimal());
+		System.out.println("Som: " +getSomAnimal());
+	}
 }
