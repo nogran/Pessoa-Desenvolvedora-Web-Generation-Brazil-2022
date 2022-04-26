@@ -23,7 +23,7 @@ tb_categorias, que deverão estar relacionadas.
 
 5.	Insira 8 registros na tabela tb_produtos, preenchendo
 	a Chave Estrangeira para criar a relação com a tabela
-    tb_categorias.
+	tb_categorias.
 
 6.	Faça um SELECT que retorne todes os produtos cujo valor
 	seja maior do que R$ 50,00.
