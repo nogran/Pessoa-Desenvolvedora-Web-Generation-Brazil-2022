@@ -14,7 +14,7 @@ tb_categorias, que deverão estar relacionadas.
 
 2.	Crie a tabela tb_produtos e determine 4 atributos,
 	além da Chave Primária, relevantes aos produtos da
-    farmácia.
+	farmácia.
 
 3.	Não esqueça de criar a Foreign Key da tabela
 	tb_categorias na tabela tb_produtos.
@@ -40,14 +40,14 @@ tb_categorias, que deverão estar relacionadas.
 
 10.	Faça um SELECT utilizando a cláusula INNER JOIN, unindo
 	os dados da tabela tb_produtos com os dados da tabela
-    tb_categorias, onde traga apenas os produtos que
-    pertençam a uma categoria específica (Exemplo:
-    Todes os produtos que pertencem a categoria cosméticos).
+	tb_categorias, onde traga apenas os produtos que
+	pertençam a uma categoria específica (Exemplo:
+	Todes os produtos que pertencem a categoria cosméticos).
 
 11.	Salve todas as queries para cada um dos requisitos do
 	exercício em um único script (arquivo .SQL) e coloque no
-    seu Github pessoal, no repositório que você criou sobre
-    Banco de dados.
+	seu Github pessoal, no repositório que você criou sobre
+	Banco de dados.
 */
 
 CREATE DATABASE db_farmacia_bem_estar;
