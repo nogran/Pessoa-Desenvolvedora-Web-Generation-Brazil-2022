@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Reinicia as config. iniciais de CSS das páginas HTML */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* A propriedade CSS nos permite incluir o padding e o 
+					border na largura e altura total de um elemento */
+}
+
